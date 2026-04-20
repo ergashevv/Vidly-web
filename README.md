@@ -11,7 +11,10 @@ npm install
 
 ## Environment
 
-Copy `.env.example` to `.env.local` and set your store URL when the extension is published:
+Copy `.env.example` to `.env.local` and set:
+
+- `NEXT_PUBLIC_CHROME_STORE_URL` when the extension is published.
+- `NEXT_PUBLIC_SUPPORT_EMAIL` to the address shown on **`/support`** — in the Chrome Web Store, set **Support service URL** to your deployed support page (e.g. `https://your-domain.com/support`).
 
 ```bash
 cp .env.example .env.local
