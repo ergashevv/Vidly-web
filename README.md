@@ -36,6 +36,7 @@ npm start
 
 Deploy on [Vercel](https://vercel.com) (recommended for Next.js), or any host that supports Node or static export. For static export, add `output: 'export'` to `next.config.ts` if your host only serves static files.
 
-## Assets
+## Branding
 
-- `public/assets/icon-128.png` — extension icon used in the header and favicon.
+- `components/vidly-logo.tsx` — inline SVG (dark tile + sky accent), used in the header and footer.
+- `app/icon.svg` — favicon / app icon (same mark, no white background).

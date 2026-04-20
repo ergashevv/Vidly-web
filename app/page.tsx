@@ -1,5 +1,5 @@
-import Image from "next/image";
 import Link from "next/link";
+import { VidlyLogo } from "@/components/vidly-logo";
 
 const CHROME_STORE_URL =
   process.env.NEXT_PUBLIC_CHROME_STORE_URL ??
@@ -18,14 +18,7 @@ export default function Home() {
       <header className="sticky top-0 z-20 border-b border-white/[0.08] bg-[#05080f]/72 backdrop-blur-md">
         <div className="mx-auto flex w-full max-w-[1040px] flex-wrap items-center justify-between gap-4 px-6 py-3.5">
           <Link href="/" className="flex items-center gap-2.5 font-semibold tracking-tight text-[#e8edf5]">
-            <Image
-              src="/assets/icon-128.png"
-              alt=""
-              width={40}
-              height={40}
-              className="rounded-xl shadow-lg shadow-black/35"
-              priority
-            />
+            <VidlyLogo size={40} className="shrink-0 shadow-lg shadow-black/40 ring-1 ring-white/5" />
             <span>Vidly</span>
           </Link>
           <nav className="hidden flex-wrap gap-4 text-sm text-[#e8edf5]/72 sm:flex" aria-label="Primary">
@@ -174,7 +167,7 @@ export default function Home() {
       <footer className="border-t border-white/[0.08] px-6 py-10">
         <div className="mx-auto flex w-full max-w-[1040px] flex-wrap items-center justify-between gap-4">
           <p className="flex items-center gap-2 text-sm font-semibold text-[#e8edf5]">
-            <Image src="/assets/icon-128.png" alt="" width={28} height={28} className="rounded-lg" />
+            <VidlyLogo size={28} className="shrink-0" />
             Vidly
           </p>
           <p className="max-w-md text-xs text-[#e8edf5]/48">

@@ -15,9 +15,6 @@ export const metadata: Metadata = {
   title: "Vidly — Live translated subtitles for Chrome",
   description:
     "Vidly translates live audio subtitles for the Chrome tab you are watching. Built for lectures, streams, and movies.",
-  icons: {
-    icon: "/assets/icon-128.png",
-  },
   openGraph: {
     title: "Vidly — Live translated subtitles for Chrome",
     description:
