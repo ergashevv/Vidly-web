@@ -4,7 +4,7 @@ import { SiteFooter } from "@/components/site-footer";
 import { SiteHeader } from "@/components/site-header";
 
 const supportEmail =
-  process.env.NEXT_PUBLIC_SUPPORT_EMAIL?.trim() || "support@example.com";
+  process.env.NEXT_PUBLIC_SUPPORT_EMAIL?.trim() || "edevzime@gmail.com";
 
 const githubIssuesUrl = process.env.NEXT_PUBLIC_GITHUB_ISSUES_URL?.trim();
 
