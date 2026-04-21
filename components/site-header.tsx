@@ -6,6 +6,7 @@ const nav = [
   { href: "/#how", label: "How it works" },
   { href: "/#get", label: "Get the extension" },
   { href: "/support", label: "Support" },
+  { href: "/privacy", label: "Privacy" },
 ] as const;
 
 export function SiteHeader() {

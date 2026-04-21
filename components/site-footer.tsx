@@ -13,6 +13,9 @@ export function SiteFooter() {
           <Link href="/support" className="hover:text-[#7dd3fc]">
             Support
           </Link>
+          <Link href="/privacy" className="hover:text-[#7dd3fc]">
+            Privacy
+          </Link>
           <a href="/" className="hover:text-[#7dd3fc]">
             Home
           </a>
